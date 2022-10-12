@@ -1,0 +1,84 @@
+<mat-sidenav-container>
+    <mat-sidenav #sidenav position="end" mode="side" opened="true" class="example-sidenav">
+        <mat-list>
+            <mat-list-item> 
+                <button [routerLink] = "['/intro']" fragment="heading1">Heading 1</button> 
+            </mat-list-item>
+            <mat-list-item> 
+                <button [routerLink] = "['/intro']" fragment="heading2">Heading 2</button> 
+            </mat-list-item>
+            <mat-list-item> 
+                <button [routerLink] = "['/intro']" fragment="heading3">Heading 3</button> 
+            </mat-list-item>
+            <mat-list-item> 
+                <button [routerLink] = "['/intro']" fragment="heading4">Heading 4</button> 
+            </mat-list-item>
+        </mat-list>
+    </mat-sidenav>
+
+    <!-- Site content -->
+    <mat-sidenav-content>
+        <div id="content">
+            <!-- <div markdown [src]="'./assets/posts/2022_10_10_intro.md'"></div> -->
+            <div markdown ngPreserveWhitespaces>
+                # Title
+            </div>
+
+            <div markdown id="heading1">
+                ## Heading 1
+            </div>
+
+            <div markdown ngPreserveWhitespaces>
+                - This is a placeholder. 
+                - This is a placeholder. 
+                - This is a placeholder. 
+                - This is a placeholder. 
+                - This is a placeholder. 
+                - This is a placeholder. 
+                - This is a placeholder. 
+            </div>
+
+            <div markdown id="heading2">
+                ## Heading 2
+            </div>
+
+            <div markdown ngPreserveWhitespaces>
+                - This is a placeholder. 
+                - This is a placeholder. 
+                - This is a placeholder. 
+                - This is a placeholder. 
+                - This is a placeholder. 
+                - This is a placeholder. 
+                - This is a placeholder. 
+            </div>
+
+            <div markdown id="heading3">
+                ## Heading 3
+            </div>
+
+            <div markdown ngPreserveWhitespaces>
+                - This is a placeholder. 
+                - This is a placeholder. 
+                - This is a placeholder. 
+                - This is a placeholder. 
+                - This is a placeholder. 
+                - This is a placeholder. 
+                - This is a placeholder. 
+            </div>
+
+            <div markdown id="heading4">
+                ## Heading 4
+            </div>
+
+            <div markdown ngPreserveWhitespaces>
+                - This is a placeholder. 
+                - This is a placeholder. 
+                - This is a placeholder. 
+                - This is a placeholder. 
+                - This is a placeholder. 
+                - This is a placeholder. 
+                - This is a placeholder. 
+            </div>
+        </div>
+    </mat-sidenav-content>
+</mat-sidenav-container>

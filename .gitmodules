@@ -1,0 +1,3 @@
+[submodule "src/app/intro/intro"]
+	path = src/app/intro/intro
+	url = git@github.com:sfischer-net/intro.git
